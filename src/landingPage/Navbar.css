@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar logo */
+.navbar__logo__container {
+    position: absolute;
+    width: 155px;
+    height: 92px;
+    left: 69px;
+    top: 33px;
+    background-image: url('../src/assets/exercise-logo 1.png');
+}
+
+/* navbar login button */
+.navbar__login__container button{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 166px;
+    height: 58px;
+    left: 1300px;
+    top: 42px;
+
+    background: #000000;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar__login__container button:hover{
+    background: #545454;
+    color: #FFFFFF;
+}

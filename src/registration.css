@@ -93,7 +93,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(4, 108, 101);
+    /* background-color: rgb(4, 108, 101); */
     color: white;
 }
 
