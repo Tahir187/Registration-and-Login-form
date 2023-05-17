@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Login = () => {
   function handleSubmit(event) {
     event.preventDefault();
@@ -36,7 +36,7 @@ const Login = () => {
             <button type="submit">Submit</button>
             <div className="login">
               <p>
-                If you are new create account <a href="">Register</a>
+                If you are new create account <Link to="/registration">Register</Link>
               </p>
             </div>
           </form>

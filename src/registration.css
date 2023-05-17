@@ -1,31 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(28, 27, 27);
-  color: white;
+    background-color: rgb(28, 27, 27);
+    color: white;
 }
 
 /* main container */
 .mainContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Added align-items to center vertically */
-  background-color: white;
-  margin: 40px auto; /* Changed margin to "auto" to center horizontally */
-  border-radius: 10px;
-  height: 80vh;
-  width: 80%;
-/* Added these properties for vertical center alignment */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Added align-items to center vertically */
+    background-color: white;
+    margin: 40px auto;
+    /* Changed margin to "auto" to center horizontally */
+    border-radius: 10px;
+    height: 80vh;
+    width: 80%;
+    /* Added these properties for vertical center alignment */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* image container */
@@ -35,75 +37,77 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
-  
-  .image {
+}
+
+.image {
     max-height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 10px 0 0 10px;
-  }
+}
 
 /* form container */
 .formContainer {
-  font-family: 'Poppins', sans-serif;
-  flex: 40%;
-  padding: 4rem 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; /* Added flex-direction to stack elements vertically */
+    font-family: 'Poppins', sans-serif;
+    flex: 40%;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Added flex-direction to stack elements vertically */
 }
 
 .formContainer input {
-  font-size: 16px;
-  width: 18rem;
-  margin-bottom: 0.8rem;
-  padding: 10px 12px;
-  border: 1px solid rgb(184, 184, 184);
-  border-radius: 5px;
-  background-color: rgb(233, 233, 233);
-  color: rgb(104, 103, 103);
-  outline: none;
+    font-size: 16px;
+    width: 18rem;
+    margin-bottom: 0.8rem;
+    padding: 10px 12px;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(104, 103, 103);
+    outline: none;
 }
 
 .formContainer h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: black;
+    padding-left: 50px;
+    margin-bottom: 1.5rem;
+    color: black;
 }
 
 /* button css */
 button {
-  font-size: 16px;
-  width: 18rem;
-  padding: 13px 12px;
-  text-align: center;
-  cursor: pointer;
-  background-color: black;
-  border: none;
-  outline: none;
-  color: white;
-  border-radius: 5px;
-  margin-top: 1rem; /* Added margin-top to create space between button and last text */
+    font-size: 16px;
+    width: 18rem;
+    padding: 13px 12px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 1rem;
+    /* Added margin-top to create space between button and last text */
 }
 
 button:hover {
-  background-color: white;
-  color: black;
+    background-color: rgb(4, 108, 101);
+    color: white;
 }
 
 /* login link css */
 .login {
-  margin-top: 10px;
-  color: black;
-  word-spacing: 2px;
-  text-align: center;
+    margin-top: 10px;
+    color: black;
+    word-spacing: 2px;
+    /* text-align: center; */
 }
 
 .login a {
-  padding-left: 4px;
-  text-decoration: none;
+    padding-left: 4px;
+    text-decoration: none;
 }
 
 
@@ -113,10 +117,11 @@ button:hover {
     }
 
     .formContainer input {
-        margin-left: 1rem;
-        margin-bottom: 0.8rem;
+        /* margin-left: 1rem;
+        margin-bottom: 0.8rem; */
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
+
