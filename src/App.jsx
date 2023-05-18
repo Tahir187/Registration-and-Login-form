@@ -1,19 +1,23 @@
-import React, {Suspense} from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Registration from './Registration';
 import Login from './Login';
 import Home from './landingPage/Home';
 import Navbar from './landingPage/Navbar';
+import CreateActivity from './landingPage/CreateActivity';
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/registration" element={<Registration />} />
-      </Routes>
-    </Router>
+    // <Router>
+    //   <Routes>
+    //     {/* <Route path="/" element={<Home />} /> */}
+    //     {/* <Route path="/login" element={<Login />} /> */}
+    //     {/* <Route path="/registration" element={<Registration />} /> */}
+    //     <Route path='/createActivity' element={<CreateActivity/>}/>
+    //   </Routes>
+    // </Router>
+
+    <CreateActivity />
   );
 }
 
