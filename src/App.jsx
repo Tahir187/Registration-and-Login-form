@@ -4,7 +4,7 @@ import Registration from './Registration';
 import Login from './Login';
 import Home from './landingPage/Home';
 import Navbar from './landingPage/Navbar';
-import CreateActivity from './landingPage/CreateActivity';
+import CreateActivity from './activity/CreateActivity';
 
 const App = () => {
   return (

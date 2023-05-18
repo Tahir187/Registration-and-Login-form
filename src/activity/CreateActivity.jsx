@@ -12,7 +12,7 @@ const CreateActivity = () => {
                     <div className="form__container">
                         <h2>Create Activity</h2>
                         <input type="text" name='name' id='name' placeholder='Name' />
-                        <input type="text" name='description' id='description' placeholder='description' />
+                        <input type="text" name='description' id='description' placeholder='Description' />
                         <input type="text" name='type' id='type' placeholder='Type' />
                         <input type="time" name="duration" id="duration" placeholder='Duration' />
                         <input type="date" name="date" id="date" placeholder='Date' />
