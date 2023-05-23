@@ -1,0 +1,30 @@
+:root {
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+    font-family: poppins-regular;
+    --bg-dark:#040607;
+    --bg-light:#eee;
+    --primary-text-color:#000;
+    --secondary-text-color:#333;
+  }
+  
+  *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  @font-face {
+    font-family: poppins-regular;
+    src: url("./Components/fonts/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: poppins-medium;
+    src: url("./Components/fonts/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: poppins-bold;
+    src: url("./Components/fonts/Poppins-Bold.ttf");
+  }
+  @font-face {
+    font-family: poppins-semibold;
+    src: url("./Components/fonts/Poppins-SemiBold.ttf");
+  }

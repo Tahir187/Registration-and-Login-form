@@ -1,0 +1,55 @@
+.card__container{
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+}
+.card__topContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.date{
+  margin-bottom: 5px;
+  color: var(--primary-text-color);
+  font-size: 18px;
+}
+.time{
+  color: var(--secondary-text-color);
+  font-size: 13px;
+}
+.card__actions{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.edit__icon{
+  color: green;
+}
+.edit__icon:hover{
+  color: black;
+}
+.delete__icon{
+  color: rgb(183, 18, 51);
+}
+.delete__icon:hover{
+  color: black;
+}
+.card__downContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  gap: 8px;
+  align-items: center;
+}
+.duration{
+  color: gray;
+}

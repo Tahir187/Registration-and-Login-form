@@ -1,23 +1,21 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Registration from './Registration';
-import Login from './Login';
-import Home from './landingPage/Home';
-import Navbar from './landingPage/Navbar';
-import CreateActivity from './activity/CreateActivity';
-
+import CreateActivity from './Components/Activity/CreateActivity';
+import CardsDetails from "./Components/Details/Card"
+import Home from './Components/Home/Home';
+import Header from './Components/Header/Header';
+// import Card from './Components/Details/Card';
+import Details from './Components/Details/Details';
 const App = () => {
   return (
-    // <Router>
-    //   <Routes>
-    //     {/* <Route path="/" element={<Home />} /> */}
-    //     {/* <Route path="/login" element={<Login />} /> */}
-    //     {/* <Route path="/registration" element={<Registration />} /> */}
-    //     <Route path='/createActivity' element={<CreateActivity/>}/>
-    //   </Routes>
-    // </Router>
-
-    <CreateActivity />
+    <Router>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/create' element={<CreateActivity/>}/>
+        <Route path='/details' element={<Details/>}/>
+      </Routes>
+    </Router>
   );
 }
 

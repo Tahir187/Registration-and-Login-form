@@ -4,8 +4,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f1f1f1;
+  font-family: poppins-regular;
 }
 /* main container of create activity */
 .main__container {
@@ -16,27 +15,24 @@ body {
 .left__create__activity__container {
   flex: 50%;
   display: flex;
-  background-color: #fff;
 }
-.left__create__activity__containe,
-img {
-  height: auto;
+.left__create__activity__containe ,img{
+  height: 100vh;
   width: 100%;
+  object-fit: cover;
 }
 /* Right contaier heading   */
 .right__create__activity__container {
   flex: 50%;
   display: flex;
-  background-color: #f1f1f1;
 }
 /* form container */
 .form__container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   width: 100%;
-  background-color: #fff;
 }
 /* h2 heading  */
 .form__container h2 {
@@ -44,25 +40,30 @@ img {
   text-align: center;
   margin-bottom: 3rem;
   font-size: 48px;
+  color: var(--primary-text-color);
+  font-family: poppins-regular;
+
 }
 /* form container input */
-.form__container input {
+.form__container input, select {
   background: #eeeeee;
-  font-size: 28px;
-  height: 90px;
-  width: 450px;
-  padding-left: 36px;
+  font-size: 16px;
+  height: 40px;
+  width: 350px;
+  padding-left: 28px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
+
 }
 /* form container button */
 .form__container button {
-    margin-bottom: 4rem;
-  width: 450px;
-  height: 80px;
+  margin-bottom: 4rem;
+  width: 350px;
+  height: 50px;
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
+  padding: 2px;
   background-color: #121212;
   color: #fff;
   border: none;
@@ -107,7 +108,7 @@ img {
     height: 100vh;
   }
   .form__container input{
-    height: 90px;
+    height: 45px;
   }
 }
 /* Responsive layout for mobile screens */
@@ -123,7 +124,7 @@ img {
   }
   .form__container input{
     width: 70%;
-    height: 60px;
+    height: 45px;
   }
   .form__container button{
     width: 70%;
